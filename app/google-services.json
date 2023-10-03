@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1008696765037",
+    "project_id": "travel-post-e1ece",
+    "storage_bucket": "travel-post-e1ece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008696765037:android:11ff336696b77a7dd1ed64",
+        "android_client_info": {
+          "package_name": "com.ewig.travelpost"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnCQFHne0iNVXNwBwnM5hWyhAm9IpqGzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

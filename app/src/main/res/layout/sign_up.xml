@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentSignUp">
+
+    <TextView
+        android:id="@+id/textViewSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Let's Sign Up!"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/signName"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:hint="Full Name:"
+            android:paddingHorizontal="10dp" />
+
+        <EditText
+            android:id="@+id/signEmail"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:hint="Email:"
+            android:paddingHorizontal="10dp" />
+
+        <EditText
+            android:id="@+id/signPassword"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:hint="Password:"
+            android:paddingHorizontal="10dp" />
+
+        <Button
+            android:id="@+id/signedUpButton"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="30dp"
+            android:text="Sign Up"
+            android:textSize="25sp" />
+    </LinearLayout>
+</LinearLayout>

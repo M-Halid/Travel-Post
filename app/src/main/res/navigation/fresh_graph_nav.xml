@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fresh_graph_nav"
+    app:startDestination="@id/fragmentLogIn2">
+    <fragment
+        android:id="@+id/fragmentSignUp"
+        android:name="com.ewig.travelpost.FragmentSignUp"
+        android:label="sign_up"
+        tools:layout="@layout/sign_up" >
+        <action
+            android:id="@+id/action_fragmentSignUp_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLogIn2"
+        android:name="com.ewig.travelpost.FragmentLogIn"
+        android:label="log_in"
+        tools:layout="@layout/log_in" >
+        <action
+            android:id="@+id/action_fragmentLogIn2_to_fragmentSignUp"
+            app:destination="@id/fragmentSignUp" />
+        <action
+            android:id="@+id/action_fragmentLogIn2_to_mainFragment2"
+            app:destination="@id/mainFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment2"
+        android:name="com.ewig.travelpost.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+</navigation>
