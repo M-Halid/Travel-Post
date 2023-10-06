@@ -29,5 +29,17 @@
         android:id="@+id/mainFragment2"
         android:name="com.ewig.travelpost.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment2_to_fragmentLogIn2"
+            app:destination="@id/fragmentLogIn2" />
+        <action
+            android:id="@+id/action_mainFragment2_to_add_post"
+            app:destination="@id/add_post" />
+    </fragment>
+    <fragment
+        android:id="@+id/add_post"
+        android:name="com.ewig.travelpost.add_post"
+        android:label="fragment_add_post"
+        tools:layout="@layout/fragment_add_post" />
 </navigation>

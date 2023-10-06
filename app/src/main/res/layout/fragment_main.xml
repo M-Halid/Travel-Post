@@ -2,8 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="200dp"
     android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp"
     tools:context=".MainFragment">
 
         <TextView
@@ -14,6 +17,29 @@
             android:text="Hello User!"
             android:textSize="34sp"
             android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="50dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/addpost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="Add Post" />
+
+        <Button
+            android:id="@+id/abmelden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abmelden" />
 
 
 </LinearLayout>
